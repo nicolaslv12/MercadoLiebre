@@ -1,0 +1,89 @@
+main{
+ text-align: center;
+}
+.input{
+    width: 90%;
+    margin: 15px;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+h4{
+    text-align: left;
+    padding: 8px;
+}
+
+.perfil input{
+    padding: 10px;
+}
+
+.perfil label{
+    padding: 10px;
+}
+
+.intereses {
+    text-align: left;
+    padding: 8px;
+}
+
+.intereses div{
+    padding: 15px;
+}
+
+.categorias {
+    margin: 10px;
+}
+
+.enviar{
+    margin: 10px;
+    padding: 8px;
+    background-color: #1259c3;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+}
+
+.enviar:hover{
+    background-color: #023179;
+}
+
+.borrar{
+    margin: 10px;
+    padding: 8px;
+    background-color: #d62b2b;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+}
+
+.borrar:hover{
+    background-color: #971e1e;
+}
+
+@media (min-width: 769px){
+    .infoPersonal{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .input{
+        flex: 5;
+    }
+
+    .infoAdicional{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .intereses{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contraseña{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

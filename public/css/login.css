@@ -1,0 +1,21 @@
+.input{
+    width: 70%;
+    margin: 15px;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.enviar{
+    width: 70%;
+    margin: 15px;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #1259c3;
+    color: white;
+}
+
+.enviar:hover{
+    background-color: #023179;
+}
