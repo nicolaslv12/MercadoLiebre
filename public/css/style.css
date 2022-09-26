@@ -44,7 +44,7 @@ nav ul li i {
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .barra-navegacion {
@@ -213,7 +213,7 @@ footer {
 
     .barra-busqueda {
         flex: 4;
-        margin-top: 20px;
+        margin-top: 10px;
         margin-left: 70px;
     }
 
@@ -268,8 +268,8 @@ footer {
 @media (min-width: 769px) {
 
     .barra-busqueda {
-        margin-top: 20px;
-        margin-left: 100px;
+        margin-top: 10px;
+        margin-left: 200px;
     }
 
     .item {
