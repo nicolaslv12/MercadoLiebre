@@ -77,8 +77,8 @@ main {
     background-color: #ebebeb;
     margin-bottom: 50px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     padding: 10px;
 }
 
@@ -104,7 +104,7 @@ main {
 }
 
 .infoProducto {
-    text-align: left;
+    text-align: center;
     border-top: 1px solid #ebebeb;
     background-color: white;
     padding: 7px;
@@ -118,20 +118,20 @@ main {
 
 .precio {
     font-size: 18px;
-    margin: 2px;
-    flex: 3;
+    width: 30%;
     padding: 1px;
 
 }
 
 .descuento {
     font-size: 16px;
-    margin: 2px;
     color: red;
-    flex: 7;
+    width: 70%;
+
 }
 
 .descripcion {
+    text-align: center;
     font-size: 16px;
     color: #acacac;
     margin-top: 5px;
@@ -185,10 +185,12 @@ h3 {
 }
 
 
-footer {
+.parte-inferior {
     display: flex;
     text-align: center;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
 }
 
 .articulo-texto {
@@ -196,12 +198,20 @@ footer {
 }
 
 .logos-footer {
+    margin-bottom: 10px;
+}
+.logos-footer i {
+    font-size: 2em;
     color: #1259c3;
-    margin-bottom: 20px;
 }
 
 .atributos {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.copy{
+    text-align: center;
     padding: 10px;
 }
 
@@ -248,20 +258,9 @@ footer {
         width: 47%;
     }
 
-
-    .precio {
-        flex: 6;
+    .atributos{
+        width: 70%;
     }
-
-    .descuento {
-        flex: 4;
-    }
-
-    .atributos {
-        flex: 3
-    }
-
-
 
 }
 
@@ -276,12 +275,8 @@ footer {
         width: 22%;
     }
 
-    .precio {
-        flex: 6;
-    }
-
-    .descuento {
-        flex: 4;
+    .atributos{
+        width: 33%;
     }
 }
 
@@ -289,14 +284,4 @@ footer {
     .item {
         width: 22%;
     }
-
-    .precio {
-        flex: 6;
-    }
-
-    .descuento {
-        flex: 4;
-    }
-
-
 }
